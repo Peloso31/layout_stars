@@ -6,23 +6,27 @@
   padding-left: 1px;
 }
 
-.stars:nth-child(2) {
+.stars--0 {
+  top: 0;
+}
+
+.stars--1 {
   top: -1px;
 }
 
-.stars:nth-child(3) {
+.stars--2 {
   top: -2px;
 }
 
-.stars:nth-child(4) {
+.stars--3 {
   top: -3px;
 }
 
-.stars:nth-child(5) {
+.stars--4 {
   top: -4px;
 }
 
-.stars:nth-child(6) {
+.stars--5 {
   top: -5px;
 }
 
