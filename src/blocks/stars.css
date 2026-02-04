@@ -1,33 +1,8 @@
 .stars {
-  position: relative;
   display: flex;
   align-items: center;
   height: 16px;
   padding-left: 1px;
-}
-
-.stars--0 {
-  top: 0;
-}
-
-.stars--1 {
-  top: -1px;
-}
-
-.stars--2 {
-  top: -2px;
-}
-
-.stars--3 {
-  top: -3px;
-}
-
-.stars--4 {
-  top: -4px;
-}
-
-.stars--5 {
-  top: -5px;
 }
 
 .stars__star {
