@@ -1,22 +1,19 @@
 .stars {
   display: flex;
-  align-items: center;
-  height: 16px;
-  padding-left: 1px;
 }
 
 .stars__star {
-  width: 13px;
-  height: 12px;
-  background-image: url('../images/star.svg');
-  background-repeat: no-repeat;
-  background-size: 13px 12px;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background: url('../images/star.svg') no-repeat center / contain;
 }
 
-.stars__star:not(:last-child) {
-  margin-right: 7px;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
+/* modifiers */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
